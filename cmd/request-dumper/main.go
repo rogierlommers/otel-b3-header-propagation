@@ -11,7 +11,7 @@ import (
 
 const hostPort = "127.0.0.1:8765"
 
-var b3Headers = []string{"x-b3-traceid", "x-b3-parentspanid", "x-b3-spanid", "x-b3-sampled", "x-b3-flags"}
+var b3Headers = []string{"traceparent", "b3", "x-b3-traceid", "x-b3-parentspanid", "x-b3-spanid", "x-b3-sampled", "x-b3-flags"}
 
 func main() {
 
