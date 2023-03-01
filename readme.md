@@ -37,5 +37,6 @@ curl -H "X-B3-TraceId: 80f198ee56343ba864fe8b2a57d3eff7" -H "X-B3-ParentSpanId: 
 I would expect that the provided B3 header (`X-B3-Traceid`) will be propagated to the downstream service (request-dumper).
 Unfortunately this is not the case.
 
+### screenshot of outcome
 
-
+![outcome of curl comand](outcome.png "outcome of curl comand")
