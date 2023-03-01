@@ -1,0 +1,35 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+### Go template
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+
+.DS_STORE
+
+# build aritifacts
+fox
+coverage.out
+r2d2-*.yml
+.build
+generated-r2d2-*
+generated
+
+# go mod cache
+.cache
+
+# ide artifacts
+.vscode
+
